@@ -29,3 +29,41 @@ As despesas operacionais (OpEx) referem-se aos custos mensais associados à util
 
 ### Modelo baseado em consumo
 O modelo de faturamento baseia-se no consumo efetivo dos recursos. Ilustrando este conceito, consideremos um cenário com duas máquinas: uma utilizada por 15 dias e outra por 30 dias. A cobrança será calculada proporcionalmente à utilização de cada recurso. Consequentemente, serão faturados 15 dias de uso para a primeira máquina e 30 dias para a segunda.
+
+<br>
+
+## Benefícios da Computação em Nuvem
+
+### Alta Disponibilidade
+
+A alta disponibilidade tem como objetivo assegurar o máximo de disponibilidade de um serviço em nuvem, independentemente de interrupções ou eventos adversos. A Microsoft oferece diferentes níveis de disponibilidade em contrato para seus serviços, que são medidos em porcentagens; quanto maior a porcentagem, menor é a probabilidade de o serviço apresentar períodos prolongados de inatividade.
+
+Por exemplo, um Acordo de Nível de Serviço (SLA) de 99% resulta em um tempo de inatividade de até 1,68 horas por semana, enquanto um SLA de 99,999% limita esse tempo a apenas 6 segundos por semana. Caso um incidente ocorra e um sistema ultrapasse o tempo de inatividade estipulado em contrato, a Microsoft proporciona compensação ao cliente na forma de um voucher no mês seguinte, buscando mitigar os impactos da indisponibilidade.
+
+### Escalabilidade
+
+A escalabilidade refere-se à capacidade de ajustar recursos para atender à demanda conforme necessário. Isso significa que você pode adicionar recursos facilmente para gerenciar um aumento na demanda. Um benefício adicional da escalabilidade é que, por se tratar de um modelo de pagamento baseado no consumo, você paga apenas pelos recursos utilizados. Se a demanda diminuir, é possível reduzir os recursos e, consequentemente, os custos. A escalabilidade pode ser entendida como um crescimento vertical.
+
+### Elasticidade
+
+O conceito de elasticidade pode ser ilustrado pela Black Friday, onde a demanda é incerta e as requisições extras são temporárias. Nesse contexto, é possível adicionar máquinas virtuais ou contêineres para expandir a capacidade e, quando a necessidade diminuir, os recursos implantados podem ser reduzidos horizontalmente. A elasticidade, portanto, se caracteriza como um crescimento horizontal.
+
+### Confiabilidade
+
+A descentralização dos sistemas em nuvem permite a implementação em diversas regiões ao redor do mundo, proporcionando uma infraestrutura confiável e resiliente. Mesmo que uma região específica fique fora do ar, outras regiões continuarão operando, permitindo a migração de serviços conforme necessário.
+
+### Previsibilidade
+
+A previsibilidade na nuvem possibilita que as organizações avancem com confiança, tanto em termos de desempenho quanto de custos.
+
+### Segurança
+
+A nuvem oferece diversas ferramentas de segurança que atendem às necessidades dos clientes. No entanto, é fundamental lembrar que a implementação dessas ferramentas deve ser realizada pelo próprio cliente. A responsabilidade pela configuração da segurança não recai sobre a Microsoft, que fornece apenas os recursos necessários para que os processos de segurança sejam aplicados no sistema.
+
+### Governança
+
+A governança na nuvem é utilizada para estabelecer padrões de gestão, assegurando que as diretrizes corporativas sejam seguidas.
+
+### Gerenciabilidade
+
+Um dos principais benefícios da computação em nuvem é a capacidade de gerenciamento. Existem duas abordagens para a gerenciabilidade: através do portal da Azure ou por meio de comandos de linha.
