@@ -67,3 +67,23 @@ A governança na nuvem é utilizada para estabelecer padrões de gestão, assegu
 ### Gerenciabilidade
 
 Um dos principais benefícios da computação em nuvem é a capacidade de gerenciamento. Existem duas abordagens para a gerenciabilidade: através do portal da Azure ou por meio de comandos de linha.
+
+<br>
+
+## Tipos de Serviços de Nuvem na Azure
+
+### IaaS (Infraestrutura como Serviço)
+
+O IaaS é o modelo de serviço mais utilizado no ambiente de nuvem. Neste modelo, o cliente assume um papel ativo, sendo responsável pela configuração, monitoramento e manutenção da infraestrutura. O cliente tem a liberdade de configurar e gerenciar o hardware necessário para seus aplicativos, o que proporciona um controle total sobre a infraestrutura utilizada.
+
+### PaaS (Plataforma como Serviço)
+
+No modelo PaaS, o cliente é responsável pela aplicação, incluindo a configuração da mesma, mas não precisa se preocupar com o servidor, uma vez que a gestão do sistema operacional é feita pelo provedor. Este serviço oferece, além de máquinas virtuais e servidores, ferramentas que suportam todo o ciclo de vida do aplicativo web. Assim, o cliente pode desenvolver aplicativos sem ter que gerenciar tarefas administrativas como backups, soluções de segurança e atualizações, que ficam a cargo da Microsoft. O gerenciamento da plataforma é, portanto, realizado pelo provedor de nuvem.
+
+### SaaS (Software como Serviço)
+
+No modelo SaaS, o cliente não precisa se preocupar com o sistema operacional, limitando-se a manter o software atualizado para garantir seu funcionamento adequado. Os clientes pagam pelo uso do software em um modelo de assinatura. 
+
+<br>
+
+À medida que se avança entre os diferentes tipos de serviços, observa-se uma diminuição do controle que o cliente exerce sobre o produto. Assim, enquanto no IaaS o cliente possui um controle extenso, no SaaS esse controle é praticamente inexistente.
